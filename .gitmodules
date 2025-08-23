@@ -2,3 +2,7 @@
 	path = gpu_sandbox
 	url = ../matter-gpu_sandbox
 	branch = main
+[submodule "SceneFoundry"]
+	path = SceneFoundry
+	url = ../matter-SceneFoundry
+	branch = main
