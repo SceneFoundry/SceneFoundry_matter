@@ -1,0 +1,11 @@
+Model Information:
+* title:	PBRchart_Metalness
+* source:	https://sketchfab.com/3d-models/pbrchart-metalness-2b489358ed4b48c6a8eb323c98b1d8a7
+* author:	j-conrad (https://sketchfab.com/j-conrad)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PBRchart_Metalness" (https://sketchfab.com/3d-models/pbrchart-metalness-2b489358ed4b48c6a8eb323c98b1d8a7) by j-conrad (https://sketchfab.com/j-conrad) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

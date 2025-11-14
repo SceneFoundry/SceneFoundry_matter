@@ -24,6 +24,17 @@
       "type": "obj",
       "name": "quad",
       "path": "quad.obj"
+    },
+    {
+      "type": "gltf",
+      "name": "helmet",
+      "path": "gltf/helmet/DamagedHelmet.gltf"
+    }
+    ,
+    {
+      "type": "gltf",
+      "name": "pbrchart",
+      "path": "gltf/pbrchart_metalness/scene.gltf"
     }
 
   ],
@@ -41,12 +52,13 @@
       "name": "cube",
       "path": "gltf/cube.gltf",
       "usage": "skybox"
-    },
+    }    ,
     {
       "type": "gltf",
-      "name": "helmet",
-      "path": "gltf/helmet/DamagedHelmet.gltf"
+      "name": "mirror_sphere",
+      "path": "gltf/mirror_sphere/mirror_sphere.gltf"
     }
+
   ],
   "textures": [
     {
