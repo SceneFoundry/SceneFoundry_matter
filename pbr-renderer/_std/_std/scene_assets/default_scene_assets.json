@@ -52,11 +52,16 @@
       "name": "cube",
       "path": "gltf/cube.gltf",
       "usage": "skybox"
-    }    ,
+    },
     {
       "type": "gltf",
       "name": "mirror_sphere",
       "path": "gltf/mirror_sphere/mirror_sphere.gltf"
+    },
+    {
+      "type": "gltf",
+      "name": "mirror_cube",
+      "path": "gltf/mirror_cube/mirror_cube.gltf"
     }
 
   ],

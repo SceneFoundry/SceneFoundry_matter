@@ -35,6 +35,23 @@
       "rotation": [ -90.0, 0.0, 0.0 ],
       "scale": [ 10.0, 10.0, 1.0 ],
       "renderSystem": "obj"
+    },
+    {
+      "name": "helmet",
+      "model": "helmet",
+      "renderSystem": "gltf",
+      "position": [ 10.0, 2.0, 0.0 ],
+      "rotation": [ 0.0, 5.0, 0.0 ],
+      "scale": [ 6.0, 6.0, 6.0 ]
+    }
+    ,
+    {
+      "name": "mirror_sphere",
+      "model": "mirror_sphere",
+      "renderSystem": "gltf",
+      "position": [ 10.0, 2.0, 0.0 ],
+      "rotation": [ 0.0, 5.0, 0.0 ],
+      "scale": [ 8.0, 8.0, 8.0 ]
     }
   ],
   "objects": [
@@ -73,21 +90,12 @@
       "renderSystem": "obj"
     },
     {
-      "name": "helmet",
-      "model": "helmet",
+      "name": "mirror_cube",
+      "model": "mirror_cube",
       "renderSystem": "gltf",
       "position": [ 10.0, 2.0, 0.0 ],
       "rotation": [ 0.0, 5.0, 0.0 ],
-      "scale": [ 6.0, 6.0, 6.0 ]
-    }
-    ,
-    {
-      "name": "mirror_sphere",
-      "model": "mirror_sphere",
-      "renderSystem": "gltf",
-      "position": [ 10.0, 2.0, 0.0 ],
-      "rotation": [ 0.0, 5.0, 0.0 ],
-      "scale": [ 6.0, 6.0, 6.0 ]
+      "scale": [ 5.0, 5.0, 5.0 ]
     }    
   ]
 }
