@@ -15,21 +15,38 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube"
+			"name":"Cone",
+			"rotation":[
+				0,
+				0.3826834559440613,
+				0,
+				0.9238795638084412
+			],
+			"scale":[
+				2,
+				1,
+				2
+			]
 		}
 	],
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material",
+			"name":"Material.001",
 			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.800000011920929,
+					0.800000011920929,
+					0.800000011920929,
+					1
+				],
 				"roughnessFactor":0
 			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"Cube",
+			"name":"Cone.001",
 			"primitives":[
 				{
 					"attributes":{
@@ -47,7 +64,7 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":24,
+			"count":16,
 			"max":[
 				1,
 				1,
@@ -63,52 +80,52 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":24,
+			"count":16,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":24,
+			"count":16,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":36,
+			"count":18,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":288,
+			"byteLength":192,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":288,
-			"target":34962
-		},
-		{
-			"buffer":0,
 			"byteLength":192,
-			"byteOffset":576,
+			"byteOffset":192,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":72,
-			"byteOffset":768,
+			"byteLength":128,
+			"byteOffset":384,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":36,
+			"byteOffset":512,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":840,
-			"uri":"mirror_cube.bin"
+			"byteLength":548,
+			"uri":"mirror_pyramid.bin"
 		}
 	]
 }

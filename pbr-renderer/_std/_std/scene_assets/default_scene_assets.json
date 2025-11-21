@@ -24,11 +24,6 @@
       "type": "obj",
       "name": "quad",
       "path": "quad.obj"
-    },
-    {
-      "type": "gltf",
-      "name": "helmet",
-      "path": "gltf/helmet/DamagedHelmet.gltf"
     }
     ,
     {
@@ -36,7 +31,6 @@
       "name": "pbrchart",
       "path": "gltf/pbrchart_metalness/scene.gltf"
     }
-
   ],
   "cubemaps_backup": [
     {
@@ -51,19 +45,33 @@
       "type": "gltf",
       "name": "cube",
       "path": "gltf/cube.gltf",
+      "coordinate_system": "vulkan",
       "usage": "skybox"
     },
     {
       "type": "gltf",
+      "name": "helmet",
+      "coordinate_system": "vulkan",
+      "path": "gltf/helmet/DamagedHelmet.gltf"
+    },
+    {
+      "type": "gltf",
       "name": "mirror_sphere",
-      "path": "gltf/mirror_sphere/mirror_sphere.gltf"
+      "coordinate_system": "yup",
+      "path": "gltf/mirror_sphere/scene.gltf"
+    },
+    {
+      "type": "gltf",
+      "name": "mirror_pyramid",
+      "coordinate_system": "yup",
+      "path": "gltf/mirror_pyramid/mirror_pyramid.gltf"
     },
     {
       "type": "gltf",
       "name": "mirror_cube",
+      "coordinate_system": "yup",
       "path": "gltf/mirror_cube/mirror_cube.gltf"
     }
-
   ],
   "textures": [
     {

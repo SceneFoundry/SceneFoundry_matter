@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mirror Sphere AVP
+* source:	https://sketchfab.com/3d-models/mirror-sphere-avp-85052ab77f604654a9c65374a971c23b
+* author:	ArtificialHuman (https://sketchfab.com/ArtificialHuman)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mirror Sphere AVP" (https://sketchfab.com/3d-models/mirror-sphere-avp-85052ab77f604654a9c65374a971c23b) by ArtificialHuman (https://sketchfab.com/ArtificialHuman) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
