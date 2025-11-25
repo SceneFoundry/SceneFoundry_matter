@@ -6,7 +6,7 @@ setlocal
 set GLSLANG=glslangValidator.exe
 
 :: Output directory
-set OUTPUT_DIR=SpirV
+set OUTPUT_DIR=spirv
 
 :: Create the output directory if it doesn't exist
 if not exist "%OUTPUT_DIR%" mkdir "%OUTPUT_DIR%"
