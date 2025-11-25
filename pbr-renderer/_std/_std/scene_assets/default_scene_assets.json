@@ -45,13 +45,13 @@
       "type": "gltf",
       "name": "cube",
       "path": "gltf/cube.gltf",
-      "coordinate_system": "vulkan",
+      "coordinate_system": "yup",
       "usage": "skybox"
     },
     {
       "type": "gltf",
       "name": "helmet",
-      "coordinate_system": "vulkan",
+      "coordinate_system": "yup",
       "path": "gltf/helmet/DamagedHelmet.gltf"
     },
     {

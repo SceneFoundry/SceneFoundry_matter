@@ -5,9 +5,23 @@ layout(set = 1, binding = 0) uniform samplerCube skybox;
 layout(location = 0) in vec3 vDirection;
 layout(location = 0) out vec4 outColor;
 
+
+// Push constants or UBO for camera + post params could be used; keep here as UBO-like values
+// For simplicity we read cameraPosition from the GlobalUbo.viewPos (xyz) if you prefer.
+// But keep dedicated uniform if you want:
+layout(push_constant) uniform PushConsts 
+{
+    
+    vec3 multiplier;
+
+} pushConsts;
+
+
 void main() {
     vec3 dir = normalize(vDirection);
-    dir.y = -dir.y;
+    dir = dir * pushConsts.multiplier;
+    //dir.y = y_multiplier * dir.y; // Flip Y if needed should not flip for opengl here given the cubemap generation
+    //dir.z = z_multiplier * dir.z;
             // 1. Fetch HDR color (linear values, can be > 1.0)
     vec3 hdrColor = texture(skybox, dir).rgb;
 

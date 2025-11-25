@@ -26,6 +26,16 @@ layout(set = 0, binding = 0) uniform GlobalUbo {
     int numLights;
 } ubo;
 
+// Push constants or UBO for camera + post params could be used; keep here as UBO-like values
+// For simplicity we read cameraPosition from the GlobalUbo.viewPos (xyz) if you prefer.
+// But keep dedicated uniform if you want:
+layout(push_constant) uniform PushConsts 
+{
+    
+    vec3 multiplier;
+
+} pushConsts;
+
 
 layout(location = 0) out vec3 vDirection;
 

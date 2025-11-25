@@ -25,14 +25,15 @@ layout(std140) uniform GlobalUbo {
 };
 
 
-uniform float y_multiplier;
-uniform float z_multiplier;
+uniform vec3 multiplier;
+//uniform float z_multiplier;
 
 
 void main() {
     vec3 dir = normalize(vDirection);
-    dir.y = y_multiplier * dir.y; // Flip Y if needed should not flip for opengl here given the cubemap generation
-    dir.z = z_multiplier * dir.z;
+    //dir.y = y_multiplier * dir.y; // Flip Y if needed should not flip for opengl here given the cubemap generation
+    //dir.z = z_multiplier * dir.z;
+    dir *= multiplier;
     //outColor = vec4(, 1.0);
         // 1. Fetch HDR color (linear values, can be > 1.0)
     vec3 hdrColor = texture(skybox, dir).rgb;
