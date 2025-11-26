@@ -57,7 +57,7 @@ float4 main(PS_INPUT input) : SV_TARGET
     float3 dir = normalize(input.vDirection);
 
     // Flip Y if your cube map was loaded OpenGL-style
-    dir.y = -dir.y;
+    //dir.y = -dir.y;
     //dir.x = -dir.x;
     //dir = float3(-dir.x, -dir.y, -dir.z);
 
