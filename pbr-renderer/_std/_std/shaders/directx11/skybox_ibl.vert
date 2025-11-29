@@ -66,7 +66,7 @@ VS_OUTPUT main(VS_INPUT input)
     clipPos.z = clipPos.w;
 
     // Flip Y because DirectX’s clip-space Y is opposite of OpenGL’s
-    clipPos.y = -clipPos.y;
+    //clipPos.y = -clipPos.y;
 
     output.position = clipPos;
 
