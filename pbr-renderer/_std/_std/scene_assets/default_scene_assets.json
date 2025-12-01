@@ -45,7 +45,7 @@
       "type": "gltf",
       "name": "cube",
       "path": "gltf/cube.gltf",
-      "coordinate_system": "yup",
+      "coordinate_system": "opengl",
       "usage": "skybox"
     },
     {
